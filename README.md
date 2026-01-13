@@ -8,24 +8,26 @@ The code to operate this lock will be stored on the device in the "passcode.txt"
 
     OR
 
-- Enter the passcode followed by the * or # keys
+- Enter the passcode followed by the '*' or '#' keys
 
 ### To lock and close the door:
 - Have a registered face enter the camera's view
 
     OR
-- Press the * or # keys
+- Press the '*' or '#' keys
 
 ### To Train the Face Detection
 - While the door is unlocked and the desired face is in front of the camera:
-  - Press "55555" (5 five times) and wait for a noise to indicate success
+  - Press "55555" (5 five times) followed by '*' or '#' and wait for a noise to indicate success
 
 ### To Forget All Faces
 - While the door is unlocked:
-  - Press "666666" (6 six times) and wait for a noise to indicate success
+  - Press "666666" (6 six times) followed by '*' or '#' and wait for a noise to indicate success
   
 ### To Reset the Door Code (MasterCode):
-- Key in the code "987654321911"
+- Key in the code "9876543210" followed by '*' or '#' for a noise to indicate success.
+- Type in your new code, must be at least 3 digits
+- Press '*' or '#' to confirm and set
 
 ## Hardware
 - Pi Pico
